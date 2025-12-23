@@ -27,3 +27,26 @@ nav a {
     margin-right: 15px;
     text-decoration: none;
 }
+/* Красивое меню */
+nav {
+    background: linear-gradient(to right, #2a7a2a, #4CAF50); /* зелёный градиент */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #2a7a2a;
+}
