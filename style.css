@@ -13,7 +13,6 @@
     display: inline-block;    
 }
 
-/* 3. Зелёные ссылки в меню */
 nav {
     background: #2a7a2a;
     padding: 10px;
@@ -25,9 +24,9 @@ nav a {
     margin-right: 15px;
     text-decoration: none;
 }
-/* Красивое меню */
+
 nav {
-    background: linear-gradient(to right, #2a7a2a, #4CAF50); /* зелёный градиент */
+    background: linear-gradient(to right, #2a7a2a, #4CAF50); 
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 30px;
