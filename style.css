@@ -1,0 +1,29 @@
+/* 1. Рамка для текстовых блоков */
+.ramka {
+    border: 3px solid green;  /* зелёная линия толщиной 3px */
+    padding: 20px;            /* отступ внутри рамки */
+    margin: 20px 0;           /* отступ снаружи рамки */
+    border-radius: 15px;      /* закруглённые углы */
+    background: #f9fff9;      /* светло-зелёный фон */
+}
+
+/* 2. Рамка для картинок */
+.ramka-kartinka {
+    border: 4px solid darkgreen;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;    /* чтобы рамка облегала картинку */
+}
+
+/* 3. Зелёные ссылки в меню */
+nav {
+    background: #2a7a2a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
